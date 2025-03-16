@@ -35,9 +35,6 @@ def main():
     # Parse command line arguments
     args = parse_args()
     
-    # Create required directories
-    os.makedirs("assets", exist_ok=True)
-    
     # Initialize LLM models
     chatllm, chatllm_large, summaryllm = initialize_models()
     print("LLM models initialized")

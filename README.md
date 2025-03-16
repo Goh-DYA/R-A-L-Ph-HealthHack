@@ -1,6 +1,8 @@
-# RALPh (Retrieval Augmented LLM Pharmacist) - Your Personalised Pocket Pharmacist
+# 💊 RALPh (Retrieval Augmented LLM Pharmacist) 🤖👨‍⚕️ 
 
-RALPh (Responsive AI Learning Pharmacist) is a conversational AI assistant designed to provide medication information and counselling services. This application uses large language models and a vector database to provide accurate medication information to users.
+**Welcome to RALPh! - Your Personalised Pocket Pharmacist**
+
+RALPh (Responsive AI Learning Pharmacist) is a conversational AI assistant designed to provide medication information and counselling services. This application uses large language models and a vector database to provide accurate & personalised medication information to users.
 
 ## Features
 
@@ -11,14 +13,16 @@ RALPh (Responsive AI Learning Pharmacist) is a conversational AI assistant desig
 - **Email Functionality**: Sends PDF summaries directly to users via email
 - **Voice Interface**: Supports speech-to-text and text-to-speech for accessible interactions
 
-## System Architecture
+![RALPh Chatbot Interface](static/ralph_screenshot.png)
+
+## Components
 
 The application is organized into modular components:
 
 1. **Models**: Configuration of OpenAI language models
-2. **Knowledge Base**: Vector database connection and search functionality
+2. **Knowledge Base**: InterSystems IRIS Vector database connection and search functionality
 3. **Chat System**: Core chat processing, memory management, and response generation
-4. **Utilities**: PDF generation, email functionality, and speech processing
+4. **Utilities**: PDF summary generation, email functionality, and speech processing
 5. **User Interface**: Gradio web interface for user interaction
 
 
@@ -27,7 +31,7 @@ The application is organized into modular components:
 ## Prerequisites
 
 - Python installation
-- InterSystems IRIS database (running in Docker) - refer to section below "InterSystems Database Setup"
+- InterSystems IRIS database (running in Docker) - refer to "InterSystems Database Setup" section below
 - API keys for OpenAI and ElevenLabs
 - Set up Gmail SMTP - refer to [link](https://support.google.com/a/answer/176600?hl=en). This is required for the send email functionality to work.
 
@@ -109,7 +113,7 @@ Prerequisites: Ensure that you have Docker installed on your local computer & is
 
 ## Running the Application
 
-**Note: ensure that your venv and database are fully set up & active**
+**NOTE: ensure that your venv and database are fully set up & active**
 
 Start the application with:
 ```
@@ -121,10 +125,17 @@ For a shareable link:
 python main.py --share
 ```
 
+#### Demo patient & RALPh verification
+As our prototype is not yet integrated with any electronic medical system, a sample (fictional) patient is coded in `config.py`.
 
-## Configuration
+For the first conversation with RALPh, you will be asked to provide the patient's name, date of birth & allergy status for verification (refer to demo screenshot above). 
 
-Configuration settings can be modified in the `config.py` file.
+The default sample patient details are:
+```
+Name: Helen Lee
+Date of Birth: 9 August 1945
+Allergy: Paracetamol (Panadol)
+```
 
 ## License
 

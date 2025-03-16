@@ -166,18 +166,18 @@ cython_debug/
 #.idea/
 
 # Others
-# *.db
-# *.xlsx
+*.db
+*.xlsx
 .gitpod.yml
-# *.mp3
+*.mp3
 *.wav
-# *.pdf
-# logs/
-# audiofiles/
-# summaries/
+*.pdf
 *.log
 *.json
-
+logs/
+audiofiles/
+summaries/
+.gradio/
 
 # Intersystems docs
 .DS_STORE
@@ -186,5 +186,4 @@ cython_debug/
 */demo/.ipynb_checkpoints/
 
 # Temp files
-Dockerfile
-README_draft.md
+tempfiles/
