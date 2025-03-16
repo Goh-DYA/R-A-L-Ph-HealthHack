@@ -1,0 +1,41 @@
+conversation_id,convo_number,turn_number,timestamp,user_input,verification_done,kb_search_input,kb_results,intermediate_output,final_response,final_response_timestamp,process_message_duration,total_query_duration,source
+20250316_183649,0,1,2025-03-16T18:38:28.545998,"Name is Helen Lee, date of birth 9 August 1945, allergic to Paracetamol (Panadol)",TRUE,,"{'metadata': None, 'scores': None}","Verified. Thank you, Helen! 
+
+Here are your prescribed medications:
+1. **ATORVASTATIN 20mg tablets** - 1 tablet once in the morning - **NO CHANGE**
+2. **EMPAGLIFLOZIN 25mg tablets** - 1 tablet once in the morning - **NEWLY PRESCRIBED DRUG**
+
+Would you like to find out more about your medications?","Sure! Here’s some information about your prescribed medications:
+
+1. **ATORVASTATIN 20mg tablets**: 
+   - **Purpose**: Atorvastatin is a statin medication used to lower cholesterol levels in the blood. It helps reduce the risk of heart disease, heart attacks, and strokes.
+   - **Dosage**: You are taking 1 tablet once in the morning.
+   - **Common Side Effects**: May include muscle pain, digestive issues, and liver enzyme changes. It's important to have regular check-ups to monitor liver function.
+
+2. **EMPAGLIFLOZIN 25mg tablets**: 
+   - **Purpose**: Empagliflozin is an SGLT2 inhibitor used to manage blood sugar levels in adults with type 2 diabetes. It can also help reduce the risk of cardiovascular events in patients with diabetes.
+   - **Dosage**: You are taking 1 tablet once in the morning.
+   - **Common Side Effects**: May include urinary tract infections, genital yeast infections, and dehydration. It's important to stay hydrated and report any unusual symptoms to your healthcare provider.
+
+If you have any specific questions or need more details about these medications, feel free to ask!",2025-03-16T18:38:38.042842,4.236332178,9.496844,chat_system_20250316_183649.json
+20250316_183649,0,2,2025-03-16T18:38:57.174733,why did doctor give me a new medicine?,TRUE,"Drug: Empagliflozin 25mg tablets;  
+Topic: 'Indication information or Information On Disease Treated';  
+Answer: Your doctor prescribed Empagliflozin to help manage your blood sugar levels, particularly if you have type 2 diabetes. It works by helping your kidneys remove excess glucose from your bloodstream. This can improve your overall blood sugar control and reduce the risk of diabetes-related complications.","{'metadata': [{'source': 'documents\\EMPAGLIFLOZIN.docx'}, {'source': 'documents\\EMPAGLIFLOZIN.docx'}, {'source': 'documents\\EMPAGLIFLOZIN.docx'}, {'source': 'documents\\EMPAGLIFLOZIN.docx'}, {'source': 'documents\\EMPAGLIFLOZIN.docx'}], 'scores': [0.070289514554079, 0.08616786723333, 0.118814747907561, 0.120740866517681, 0.126421256174419]}","Your doctor has prescribed Empagliflozin, which is a medication used to help manage Type 2 Diabetes. It works by preventing the kidneys from reabsorbing sugar back into the blood, thereby increasing the amount of sugar removed in the urine. This helps to lower blood sugar levels, which is important in managing diabetes.
+
+Given your medical history of Type 2 Diabetes, Empagliflozin can be an effective addition to your treatment plan, alongside lifestyle changes such as a healthy diet and regular exercise. It is important to manage your blood sugar levels to prevent complications associated with diabetes.
+
+If you have any concerns or need further clarification about this medication, please feel free to ask or consult your healthcare provider.","Your doctor has prescribed Empagliflozin, a medication used to help manage Type 2 Diabetes. It works by preventing the kidneys from reabsorbing glucose back into the bloodstream, which increases the amount of glucose excreted in the urine. This helps lower blood sugar levels, which is crucial for managing diabetes effectively.
+
+Given your medical history of Type 2 Diabetes, Empagliflozin can be a beneficial addition to your treatment plan, especially when combined with lifestyle changes such as a healthy diet and regular exercise. Proper management of your blood sugar levels is essential to prevent complications associated with diabetes.
+
+If you have any concerns or need further clarification about this medication, please feel free to ask or consult your healthcare provider. It's important to understand how to use it effectively and what to expect while on this treatment.",2025-03-16T18:39:05.273797,5.217218876,8.099064,chat_system_20250316_183649.json
+20250316_183649,0,3,2025-03-16T18:39:19.513266,what is metformin?,TRUE,"Drug: Metformin;  
+Topic: 'Indication information or Information On Disease Treated' and 'Mechanism of Action & How it Works / Helps';  
+Answer: Metformin is an oral medication commonly used to treat Type 2 Diabetes. It works by decreasing glucose production in the liver and improving insulin sensitivity, which helps lower blood sugar levels.","{'metadata': [{'source': 'documents\\METFORMIN.docx'}, {'source': 'documents\\METFORMIN.docx'}, {'source': 'documents\\SITAGLIPTIN.docx'}, {'source': 'documents\\SITAGLIPTIN.docx'}, {'source': 'documents\\GLIPIZIDE.docx'}], 'scores': [0.086262675660538, 0.086449160700426, 0.144570199238068, 0.145511730535972, 0.151591891473919]}","Metformin is a medication commonly used to manage Type 2 Diabetes. It helps control blood sugar levels by improving your body's response to insulin and decreasing the amount of sugar produced by your liver. Metformin is often used in conjunction with lifestyle changes, such as maintaining a healthy diet and engaging in regular exercise, to effectively reduce blood sugar levels. If you have any more questions or need further clarification, feel free to ask!","Metformin is a medication commonly prescribed for managing Type 2 diabetes. It works primarily by improving the body's sensitivity to insulin, which helps lower blood sugar levels. Additionally, it reduces the amount of glucose produced by the liver and decreases the absorption of sugar from the intestines.
+
+Metformin is often used alongside lifestyle changes, such as a balanced diet and regular physical activity, to achieve better blood sugar control. It is generally well-tolerated, but like any medication, it can have side effects, including gastrointestinal issues like nausea or diarrhea.
+
+If you have specific questions about metformin, its uses, side effects, or anything else, feel free to ask!",2025-03-16T18:39:32.693092,8.024911642,13.179826,chat_system_20250316_183649.json
+20250316_183649,0,4,2025-03-16T18:40:09.616000,Can metformin be crushed?,TRUE,"Drug: Metformin;  
+Topic: 'Administration Instructions or Medication Storage';  
+Answer: Metformin tablets can be crushed if you have difficulty swallowing them, but it's best to consult your healthcare provider or pharmacist before doing so to ensure it won't affect the medication's effectiveness.","{'metadata': [{'source': 'documents\\METFORMIN.docx'}, {'source': 'documents\\SITAGLIPTIN.docx'}, {'source': 'documents\\EMPAGLIFLOZIN.docx'}, {'source': 'documents\\TELMISARTAN.docx'}, {'source': 'documents\\METFORMIN.docx'}], 'scores': [0.093478740822877, 0.162243267694451, 0.164075238945105, 0.168189950672404, 0.169020923181273]}","Yes, certain forms of metformin can be crushed. Specifically, METFORMIN 250MG, 500MG, and 850MG tablets can be crushed. However, the METFORMIN 1000MG XR (extended-release) tablets should not be cut or crushed. If you have any concerns or need further clarification, please consult your pharmacist or healthcare provider.","Yes, certain forms of metformin can be crushed. Specifically, metformin 250 mg, 500 mg, and 850 mg tablets can be crushed. However, the metformin 1000 mg XR (extended-release) tablets should not be cut or crushed, as this can affect the medication's release mechanism. If you have any concerns or need further clarification, please consult your pharmacist or healthcare provider.",2025-03-16T18:40:19.773529,5.928986549,10.157529,chat_system_20250316_183649.json
