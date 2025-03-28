@@ -47,7 +47,7 @@ PATIENT_DETAILS_EXAMPLE = """
 'NRIC': 'S1099999F',\n
 'Date of Birth: '9 August 1945',\n
 'Gender': 'Female',\n
-'Allergy': 'Paracetamol (Panadol)',\n
+'Allergy': 'Ibuprofen',\n
 'Past medical history': 'Type 2 diabetes, High Cholesterol (Hypercholesteromeia)'\n
 'Labs': 'HbA1c: 9.0, LDL: 2.2, eGFR: 60'\n
 """
