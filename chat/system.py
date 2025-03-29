@@ -29,7 +29,7 @@ class ChatSystem:
                  summaryllm, 
                  patient_details, 
                  prescription_details, 
-                 memory_char_limit=1000):
+                 memory_char_limit=5000):
         """
         Initialize ChatSystem with required LLMs and settings.
         

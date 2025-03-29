@@ -79,19 +79,22 @@ Firstly, may i verify your name, date of birth & allergy status?
         response_content = self.chat_system.process_message(query)
     
         # Set up empathy prompt
-        from langchain_core.messages import SystemMessage, AIMessage
-        empathy_prompt = [
-            SystemMessage(content="placeholder."),
-            AIMessage(content=response_content)
-        ]
+        # from langchain_core.messages import SystemMessage, AIMessage
+        # empathy_prompt = [
+        #     SystemMessage(content="placeholder."),
+        #     AIMessage(content=response_content)
+        # ]
     
         # Stream the final empathy LLM
         full_response = "" 
         audio_path = None
         
-        for chunk in self.chat_system.chatllm.stream(input=empathy_prompt):
-            full_response += chunk.content  # Append the chunk to the full response
+        # for chunk in self.chat_system.chatllm.stream(input=empathy_prompt):
+            # full_response += chunk.content  # Append the chunk to the full response
             
+        for chunk in response_content:  # Stream response content
+            full_response += chunk
+
             history[-1][1] = full_response
             yield history, audio_path
         

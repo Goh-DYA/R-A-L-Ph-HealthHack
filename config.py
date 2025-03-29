@@ -29,7 +29,7 @@ EMAIL_SMTP_SERVER = os.environ.get("EMAIL_SMTP_SERVER", "smtp.gmail.com")
 EMAIL_SMTP_PORT = int(os.environ.get("EMAIL_SMTP_PORT", "587"))
 
 # Chat settings
-MEMORY_CHAR_LIMIT = int(os.environ.get("MEMORY_CHAR_LIMIT", "1000"))
+MEMORY_CHAR_LIMIT = int(os.environ.get("MEMORY_CHAR_LIMIT", "5000"))  # default memory char limit: 5k
 
 # Directories
 LOG_DIR = "logging/logs"
